@@ -1,0 +1,80 @@
+/* 카테고리 페이지에서만 사용하는 스타일입니다. */
+
+.category-stories {
+  padding: 90px 0 100px;
+}
+
+.category-list {
+  border-top: 1px solid var(--line);
+}
+
+.pagination .page-one-number {
+  padding: 4px 5px;
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+.category-story {
+  display: grid;
+  grid-template-columns: minmax(260px, 0.9fr) 1.1fr;
+  gap: clamp(28px, 6vw, 84px);
+  align-items: center;
+  padding: 30px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.category-image {
+  aspect-ratio: 4 / 2.5;
+  overflow: hidden;
+  background: #6f6b65;
+}
+
+.category-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.category-story-content {
+  max-width: 560px;
+}
+
+.category-story-content .story-category {
+  margin-bottom: 14px;
+}
+
+.category-story-content h3 {
+  font-size: clamp(1.25rem, 2vw, 1.65rem);
+}
+
+.category-story-content .story-summary {
+  max-width: 420px;
+  margin: 14px 0 0;
+}
+
+.category-story-content time {
+  display: block;
+  margin-top: 22px;
+}
+
+@media (max-width: 760px) {
+  .category-stories {
+    padding-top: 68px;
+  }
+
+  .category-story {
+    grid-template-columns: 1fr;
+    gap: 22px;
+    padding: 26px 0 32px;
+  }
+
+  .category-image {
+    aspect-ratio: 4 / 2.7;
+  }
+}
+
+@media (max-width: 440px) {
+  .category-image {
+    aspect-ratio: 4 / 3;
+  }
+}
