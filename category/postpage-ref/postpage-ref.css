@@ -110,7 +110,8 @@ h2 {
 .post-meta {
   display: flex;
   gap: 12px;
-  margin-top: 30px;
+  margin-top: 14px;
+  line-height: 1.2;
 }
 
 .post-image {
