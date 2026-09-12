@@ -96,7 +96,7 @@ h1 {
   margin-top: 18px;
   font-family: var(--serif);
   font-weight: 400;
-  font-size: clamp(3.7rem, 7vw, 5rem);
+  font-size: clamp(3.7rem, 7vw, 4.5rem);
   line-height: 1.06;
   letter-spacing: -0.045em;
 }
