@@ -288,8 +288,8 @@ h2 {
 
   .next-story {
     grid-column: 1;
-    align-items: flex-end;
-    text-align: right;
+    align-items: flex-start;
+    text-align: left;
   }
 }
 
