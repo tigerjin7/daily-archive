@@ -168,7 +168,6 @@ figcaption {
 }
 
 .post-body .lead {
-  margin-bottom: 36px;
   font-size: 1.25rem;
   line-height: 1.85;
 }
@@ -179,7 +178,7 @@ figcaption {
 }
 
 h2 {
-  margin: 58px 0 21px;
+  margin: 0 0 21px;
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1.1;
 }

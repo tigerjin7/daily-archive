@@ -183,6 +183,10 @@ h2 {
   display: block;
 }
 
+#story-page-2:checked ~ .story-page-two {
+  display: block;
+}
+
 .page-number {
   display: inline-block;
 }
@@ -192,6 +196,11 @@ h2 {
 }
 
 #story-page-1:checked ~ .pagination .page-one-number {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+}
+
+#story-page-2:checked ~ .pagination .page-two-number {
   text-decoration: underline;
   text-underline-offset: 5px;
 }
