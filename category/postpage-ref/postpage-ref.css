@@ -181,7 +181,7 @@ figcaption {
 }
 
 .post-body h2 {
-  margin: 64px 0 21px;
+  margin: 40px 0 21px;
   padding-top: 22px;
   border-top: 1px solid var(--line);
   font-size: clamp(2rem, 4vw, 3rem);
@@ -191,7 +191,7 @@ figcaption {
 .post-body .pointline{
   font-size: 1.75rem;
   line-height: 1.85;
-  margin: 64px 0 21px;
+  margin: 40px 0 21px;
   padding-top: 22px;
   border-top: 1px solid var(--line);
   line-height: 1.1;
@@ -201,13 +201,21 @@ figcaption {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
-  margin: 38px 0 74px;
+  margin: 38px 0 38px;
 }
 
 .post-gallery img {
   display: block;
   width: 100%;
   height: auto;
+}
+
+.post-gallery-caption {
+  grid-column: 1 / -1;
+  margin: 9px 0 0;
+  color: var(--soft-ink);
+  font-size: 0.75rem;
+  line-height: 1.5;
 }
 
 .post-video {
@@ -354,6 +362,6 @@ figcaption {
   .post-gallery {
     grid-template-columns: 1fr;
     gap: 12px;
-    margin: 30px 0 58px;
+    margin: 30px 0 36px;
   }
 }
