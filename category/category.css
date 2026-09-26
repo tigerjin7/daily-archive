@@ -8,12 +8,6 @@
   border-top: 1px solid var(--line);
 }
 
-.pagination .page-one-number {
-  padding: 4px 5px;
-  text-decoration: underline;
-  text-underline-offset: 5px;
-}
-
 .category-story {
   display: grid;
   grid-template-columns: minmax(260px, 0.9fr) 1.1fr;

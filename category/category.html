@@ -29,7 +29,23 @@
         <p class="section-description">살아간 소중한 순간들...</p>
       </div>
 
-      <div class="category-list">
+      <input class="page-toggle" type="radio" name="story-page" id="story-page-1" checked>
+      <input class="page-toggle" type="radio" name="story-page" id="story-page-2">
+
+      <div class="story-page story-page-one">
+        <div class="category-list">
+          <a class="category-story" href="./postpage-daily/postpage-daily260926.html">
+          <div class="category-image">
+            <img src="./postpage-daily/source/post image 260926.png" alt="화산귀환 174~176화 리뷰">
+          </div>
+          <div class="category-story-content">
+            <p class="story-category">DAILY</p>
+            <h3>화산귀환 174~176화 리뷰</h3>
+            <p class="story-summary">운남에서 귀한 재료까지 구해온 화산파. 이제 남은 건 최고의 영단 혼원단을 완성하는 일이다. ⚠️스포일러 주의</p>
+            <time datetime="2026-09-26">2026. 09. 26.</time>
+          </div>
+          </a>
+
           <a class="category-story" href="./postpage-daily/postpage-daily260925.html">
           <div class="category-image">
             <img src="./source/category-260925.png" alt="category-260925">
@@ -90,6 +106,11 @@
           </div>
           </a>
 
+        </div>
+      </div>
+
+      <div class="story-page story-page-two">
+        <div class="category-list">
           <a class="category-story" href="./postpage-daily/postpage-daily.html">
             <div class="category-image">
               <img src="./source/category-1.png" alt="category-1">
@@ -98,15 +119,15 @@
               <p class="story-category">DAILY</p>
               <h3>유부녀 킬러 13화 리뷰</h3>
               <p class="story-summary">드디어 밝혀지는 가짜 킹피셔의 정체 ⚠️스포일러 주의</p>
-              <time datetime="2026-09-09">2026. 09. 12.</time>
+              <time datetime="2026-09-12">2026. 09. 12.</time>
             </div>
           </a>
-  
-
+        </div>
       </div>
 
       <nav class="pagination" aria-label="페이지 이동">
-        <span class="page-one-number">1</span>
+        <label class="page-control page-number page-one-number" for="story-page-1">1</label>
+        <label class="page-control page-number page-two-number" for="story-page-2">2</label>
       </nav>
     </section>
   </main>
