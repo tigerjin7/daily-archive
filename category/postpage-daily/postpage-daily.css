@@ -177,10 +177,35 @@ figcaption {
   line-height: 1.85;
 }
 
+.post-body .pointline {
+  margin: 40px 0 21px;
+  padding-top: 22px;
+  border-top: 1px solid var(--line);
+  font-size: 1.75rem;
+  line-height: 1.1;
+}
+
 h2 {
   margin: 0 0 21px;
   font-size: clamp(2rem, 4vw, 3rem);
   line-height: 1.1;
+}
+
+.post-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin: 38px 0;
+}
+
+.post-gallery-stacked {
+  grid-template-columns: 1fr;
+}
+
+.post-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .post-navigation {
@@ -301,5 +326,15 @@ h2 {
 
   .post-body p {
     font-size: 0.96rem;
+  }
+
+  .post-gallery {
+    grid-template-columns: 1fr;
+    gap: 12px;
+    margin: 30px 0 36px;
+  }
+
+  .post-gallery-stacked {
+    display: none;
   }
 }
